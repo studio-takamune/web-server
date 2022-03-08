@@ -35,6 +35,9 @@ app.get("/api/vi/users", function (req, res) {
   });
 });
 
-app.listen(3098);
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, function(){
+  console.log("server running");
+});
 
-console.log("server running");
+
