@@ -1,0 +1,17 @@
+h1 {
+  color: tomato;
+}
+h2 {
+  color: rgb(14, 131, 131);
+}
+input {
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+button {
+  padding: 7.5px;
+  border: 1px solid gray;
+  color: white;
+  background: tomato;
+}
